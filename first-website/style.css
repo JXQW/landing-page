@@ -15,6 +15,14 @@ body {
     color: #f9faf8;
     background-color: #1F2937;
 }
+.links {
+    font-size: 12px;
+    margin-left: 50px;
+}
+
+.ghost-text {
+    color: #1F2937;
+}
 
 .header-container {
     display: flex;

@@ -1,54 +1,58 @@
 body {
-    font-family: 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0;
-    min-height: 100vh;
-    background-color: purple;
+    background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
+
 
 .header {
     display: flex;
-    font-size: 36px;
-    color: violet;
-    background-color: purple;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    background-color: #1F2937;
 }
 
-.shout {
+.header-container {
+    display: flex;
+    text-align: left;
+    align-self: flex-end;
+    width: 90%;
+    flex-shrink: 1;
+}
+.header-text-grouped {
+    margin: 10px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin-top: 100px;
-    margin-left: 100px;
-    color: violet;
-    background-color: purple;
-    width: 1000px;
-    height: auto;
-    font-size: 24px;
+    width: 100%;
 }
 
-.whisper {
-    height: 400px;
-    width: 400px;
+.top-header {
+    justify-content: center;
+    margin-right: 300px;
+    margin-top: 100px; 
+    color: #E5E7EB;
+    font-size: 36px;
+    background-color: #1F2937;
+    width: 500px;
+    height: 100%;
+}
+
+.header-subtext {
     display: flex;
-    align-items: center;
-    justify-content: start;
     font-size: 18px;
     font-weight: 500;
-    flex-wrap: wrap;
+    color: #E5E7EB;
 }
 
-.webimg {
-    display: flex;
-    flex-direction: column-reverse;
-    width: 800px;
-    height: auto;
-}
 
-.gooba {
+.header-image {
     width: 300px;
     height: auto;
+    margin-right: 600px;
 }
 
 img {
@@ -57,10 +61,64 @@ img {
 }
 
 .container {
-    background-color: aliceblue;
+    width: 100%;
+    height: 400px;
+    background-color: #f9faf8;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
+.inspire {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.buttons {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: floralwhite;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    outline: white 10px;
+    
+    
+}
+
+button:hover {
+    background-color: #3e8e41;
+
+}
+
+.CoA {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    font-size: 36px;
+    color: #1F2937;
+    background-color:#3892f6;
+}
+
+.blue {
+    color: #E5E7EB;
+    font-weight: bolder;
+}
+
+.blue2 {
+    color: #E5E7EB;
+    font-weight: 300;
+    font-size: 12px;
+}
 

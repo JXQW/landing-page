@@ -22,6 +22,10 @@ body {
 
 .ghost-text {
     color: #1F2937;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    margin-left: 230px;
 }
 
 .header-container {
@@ -30,6 +34,7 @@ body {
     align-self: flex-end;
     width: 90%;
     flex-shrink: 1;
+    margin-bottom: 100px;
 }
 .header-text-grouped {
     margin: 10px;
@@ -49,6 +54,17 @@ body {
     height: 100%;
 }
 
+.middle-header {
+    display: flex;
+    justify-content: center;
+    background-color: #f9faf8;
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    width: 100%;
+    height: 100%;
+}
+
 .header-subtext {
     display: flex;
     font-size: 18px;
@@ -56,6 +72,9 @@ body {
     color: #E5E7EB;
 }
 
+ul {
+    list-style: none;
+}
 
 .header-image {
     width: 300px;
@@ -64,17 +83,27 @@ body {
 }
 
 img {
-    width: 100px;
-    height: auto;
+    display: flex;
+    width: 150px;
+    height: 150px;
 }
+.img {
+    font-size: 12px;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-around; 
+  }
 
 .container {
-    width: 100%;
-    height: 400px;
-    background-color: #f9faf8;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 200px;
+    background-color: #f9faf8;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .inspire {
@@ -106,17 +135,24 @@ button:hover {
 
 }
 
-.CoA {
+.Footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    margin-left: 300px;
+    width: 70%;
     height: 200px;
     font-size: 36px;
     color: #1F2937;
+    margin-top: 40px;
+    margin-bottom: 40px;
     background-color:#3892f6;
+}
+
+.Footer-container {
+    background-color: #f9faf8;
 }
 
 .blue {
